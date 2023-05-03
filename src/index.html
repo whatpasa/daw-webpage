@@ -1,119 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gaaaaaaa hdperra</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script type="text/javascript">
-      $(document).ready(function(){
-      $('.slider').slick({
-          dots: false,
-          infinite: true,
-          speed: 300,
-          slidesToShow: 4,
-          adaptiveHeight: true,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          prevArrow: null,
-          nextArrow: null
-      });
-      });
-  </script>
+        $(document).ready(function(){
+        $('.slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            adaptiveHeight: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: null,
+            nextArrow: null
+        });
+        });
+    </script>
+    <style>
+        .slider div {
+        position: relative;
+        }
 
-        <style>
-          .slider div {
-          position: relative;
-          }
-  
-          .slider .caption {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          opacity: 0;
-          background-color: rgba(0, 0, 0, 0.7);
-          color: white;
-          text-align: center;
-          transition: opacity 0.5s ease;
-          }
-  
-          .slider div:hover .caption {
-          opacity: 1;
-          }
-  
-          .slider .caption p {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color:white;
-          font-family: Arial, Helvetica, sans-serif;
-          }
-          .slider img {
-          width: 25vw;
-          height: 50vh;
-          }
-          
-          progress {
-          display: block;
-          margin: 0 auto;
-          height: 10px;
-          width: 10%;
-          }
-          .feature-case h5{
-              font-family: 'Muli', sans-serif;
-              margin: 0 0 25px;
-              color: #0c5adb;
-              font-size: 16px;
-              text-transform: uppercase;
-              font-weight: 700;
-              letter-spacing: 5px;
-              box-sizing: border-box;
-              font-style: normal;
-              line-height: 1.3;
-              transition: .5s;
-              margin-block-start: 1.67em;
-              margin-block-end: 1.67em;
-              margin-inline-start: 0px;
-              margin-inline-end: 0px;
-              display: block;
-          }
-          .feature-case h3{
-          color: #232323;
-          font-family: 'Muli', sans-serif;
-          font-style: normal;
-          font-size: 30px !important;
-          margin-bottom: 0px;
-          text-transform: capitalize;
-          margin-top: 0;
-          line-height: 1.2;
-          font-weight: 600;
-          }
-          .feature-case h2{
-          margin-bottom: 0px;
-          text-transform: capitalize;
-          margin-top: 0;
-          line-height: 1.2;
-          font-weight: 500;
-          margin: 0 0 25px;
-          }
-  
-      </style>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>WebPage</title>
-  </head>
-  <body>
-   
+        .slider .caption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-align: center;
+        transition: opacity 0.5s ease;
+        }
 
+        .slider div:hover .caption {
+        opacity: 1;
+        }
+
+        .slider .caption p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .slider img {
+        width: 25vw;
+        height: 50vh;
+        }
+        
+        progress {
+        display: block;
+        margin: 0 auto;
+        height: 10px;
+        width: 10%;
+        }
+        .feature-case h5{
+        font-family: 'Muli', sans-serif;
+        margin: 0 0 25px;
+        color: #0c5adb;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 5px;
+        box-sizing: border-box;
+        font-style: normal;
+        line-height: 1.3;
+        transition: .5s;
+        margin-block-start: 1.67em;
+        margin-block-end: 1.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        display: block;
+        }
+        .feature-case h3{
+        color: #232323;
+        font-family: 'Muli', sans-serif;
+        font-style: normal;
+        font-size: 30px !important;
+        margin-bottom: 0px;
+        text-transform: capitalize;
+        margin-top: 0;
+        line-height: 1.2;
+        font-weight: 600;
+        }
+        .feature-case h2{
+        margin-bottom: 0px;
+        text-transform: capitalize;
+        margin-top: 0;
+        line-height: 1.2;
+        font-weight: 500;
+        margin: 0 0 25px;
+        }
+
+    </style>
+
+</head>
+<body>
     <div class="container text-center feature-case">
         <h5>FEATURES CASE</h5>
         <h3>Our Latest Case Study</h3>
@@ -156,31 +150,9 @@
         </div>
       </div> 
       <br>
-
-
-
-
-
-
-
-
-
-
       
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>      
+</body>
 </html>
